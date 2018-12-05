@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .myactive{
+            font-size: 30px;
+            font-weight: 500;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="demo">
+        <router-link to="/login?id=10&name=zs" tag="span">登录</router-link>
+        <router-link to="/register" tag="span">注册</router-link>
+
+        <router-view></router-view>
+    </div>
+</body>
+</html>
+<script src="libs/vue-2.4.0.js"></script>
+<script src="libs/vue-router-3.0.1.js"></script>
+
+<script>
+
+
+    var login = {
+        template:'<h3>登录组件----{{ $route.query.id}}-------{{$route.query.name}}</h3>',
+        data(){
+            return {
+                msg:123
+            }
+        },
+        methods:{
+        },
+        created(){
+            console.log(this.$route.query.id)
+        }
+    };
+    var register = {
+        template:'<h3>注册组件</h3>'
+    };
+
+
+    var router = new VueRouter({
+        routes:[
+            {path:'/login',component:login},
+            {path:'/register',component:register}
+        ],
+        linkActiveClass:'myactive'
+    });
+    var vm = new Vue({
+        el:'#demo',
+        data:{},
+        methods:{},
+        router
+    })
+</script>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="demo">
+        <com v-bind:parentmsg = 'Msg'></com>
+    </div>
+</body>
+</html>
+<script src="libs/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el:'#demo',
+        data:{
+            Msg:"我是父组件的数据"
+        },
+        methods:{
+        },
+        components:{
+            com:{
+                template:'<h1 @click="change">{{ parentmsg }}</h1>',
+                props:['parentmsg'],
+                methods:{
+                    change(){
+                        this.parentmsg = "我是被修改的值"
+                    }
+                }
+            }
+        }
+    })
+</script>

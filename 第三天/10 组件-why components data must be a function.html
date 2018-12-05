@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div id="demo">
+        <com></com>
+        <hr>
+        <com></com>
+        <hr>
+        <com></com>
+    </div>
+
+    <template id="templ">
+        <div>
+            <input type="button" value="+1" @click="add">
+            <h1>{{count}}</h1>
+        </div>
+    </template>
+</body>
+</html>
+<script src="libs/vue-2.4.0.js"></script>
+<script>
+    Vue.component('com',{
+        template:'#templ',
+        data:function () {
+            return{ count:0 }
+        },
+        methods:{
+            add(){
+                this.count++;
+            }
+        }
+    })
+    var vm = new Vue({
+        el:'#demo',
+        data:{},
+        methods:{}
+    })
+</script>

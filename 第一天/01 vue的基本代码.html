@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        [v-cloak]{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="text">
+        <p v-cloak>{{ msg }}</p>
+        <p v-text ="msg2"></p>
+        <div  v-html = "msg3"></div>
+    </div>
+<script src="vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el:"#text",
+        data:{
+            msg:"哈哈",
+            msg2:"我是哈哈2",
+            msg3:"<h1>我是第一个大大的h1</h1>"
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="demo">
+        <label>id:</label><input type="text" v-model="id">
+        <label>name:</label><input type="text" v-model="name">
+        <input type="button" value="添加" @click="add">
+        <!--为key绑定id-->
+        <p v-for="item in json" :key="item.id">
+            <input type="checkbox">{{item.id}}---{{item.name}}
+        </p>
+
+    </div>
+</body>
+</html>
+<script src="vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el:"#demo",
+        data:{
+            id:'',
+            name:'',
+            json: [
+            { id: 1, name: '李斯' },
+            { id: 2, name: '嬴政' },
+            { id: 3, name: '赵高' },
+            { id: 4, name: '韩非' },
+            { id: 5, name: '荀子' }]
+        },
+        methods:{
+            add(){
+                this.json.unshift({id:this.id,name:this.name})
+            }
+        }
+    })
+</script>

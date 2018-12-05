@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="demo">
+    <p v-for="(value,key,index) in user">值是：{{value}}-----键是：{{key}}-----索引值：{{index}}</p>
+</div>
+
+</body>
+</html>
+<script src="vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el:"#demo",
+        data:{
+            user:{
+                id:1,
+                name:"张三",
+                sex:'男'
+            }
+        },
+        methods:{}
+    })
+</script>

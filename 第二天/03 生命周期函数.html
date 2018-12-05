@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="demo">
+       <p id="msg"> {{msg}} </p>
+        <input type="button" @click = "msg = 'NO'" value="点击">
+    </div>
+</body>
+</html>
+<script src="libs/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el:'#demo',
+        data:{
+            msg:"YES"
+        },
+        methods:{},
+
+        //beforeCreate()
+//        beforeCreate(){
+//            console.log(this.msg)
+//        },
+
+        //created()
+//        created(){
+//            console.log(this.msg)
+//        },
+
+        //beforeMount
+//        beforeMount(){
+//            console.log(document.getElementById('msg').innerHTML)
+//        },
+        //Mount
+//        Mounted(){// 这是遇到的第4个生命周期函数，表示，内存中的模板，已经真实的挂载到了页面中，用户已经可以看到渲染好的页面了
+//            console.log(document.getElementById('msg').innerText)
+//        },
+        //beforeUpdate()
+//        beforeUpdate(){
+//            console.log(document.getElementById('msg').innerText)
+//        },
+        updated(){
+            console.log(document.getElementById('msg').innerText)
+        }
+
+    })
+</script>

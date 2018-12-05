@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="demo">
+        <mycom2></mycom2>
+    </div>
+</body>
+</html>
+<script src="libs/vue-2.4.0.js"></script>
+<script>
+    Vue.component('mycom2',{
+        // 注意:不论是哪种方式创建出来的组件,组件的 template 属性指向的模板内容,必须有且只能有唯一的一个根元素
+        template:'<div><h3>这是直接使用 Vue.component 创建出来的组件</h3><span>我是被div包含的span</span></div>'
+    })
+    var vm = new Vue({
+        el:'#demo',
+        data:{},
+        methods:{}
+    })
+</script>

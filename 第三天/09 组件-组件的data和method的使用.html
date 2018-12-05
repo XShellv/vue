@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div id="demo">
+        <mycom5></mycom5>
+    </div>
+
+</body>
+</html>
+
+<script src="libs/vue-2.4.0.js"></script>
+<script>
+    Vue.component('mycom5',{
+        template:'<h1>我是全局组件---{{msg}}</h1>',
+        data:function () {
+            return{
+                msg:'我是组件的内容'
+            }
+        }
+    });
+
+
+    var vm = new Vue({
+        el:'#demo',
+        data:{},
+        methods:{},
+    });
+
+</script>

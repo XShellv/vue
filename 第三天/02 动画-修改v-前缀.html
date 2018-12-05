@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*h3动画设置*/
+        .v-enter,
+        .v-leave-to{
+            opacity: 0;
+            transform: translateX(150px);
+        }
+
+        .v-enter-active,
+        .v-leave-active{
+            transition: all ease 0.8s;
+        }
+        /*h4动画设置(修改v-前缀)*/
+        .my-enter,
+        .my-leave-to{
+            opacity: 0;
+            transform: translateY(150px);
+        }
+
+        .my-enter-active,
+        .my-leave-active{
+            transition: all ease 0.8s;
+        }
+    </style>
+</head>
+<body>
+    <div id="demo">
+        <input type="button" value="toggle1" @click ="flag1 = !flag1">
+        <transition>
+            <h3 v-if="flag1">这是一个h3</h3>
+        </transition>
+
+        <hr>
+
+        <input type="button" value="toggle2" @click ="flag2 = !flag2">
+        <transition name="my">
+            <h4 v-show="flag2">这是一个h4</h4>
+        </transition>
+    </div>
+</body>
+</html>
+<script src="libs/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el:"#demo",
+        data:{
+            flag1:false,
+            flag2:false
+        }
+    })
+</script>

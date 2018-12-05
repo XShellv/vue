@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .v-enter,
+        .v-leave-to {
+            opacity: 0;
+            transform: translateX(150px);
+        }
+
+        .v-enter-active,
+        .v-leave-active{
+            transition: all 0.8s ease;
+        }
+    </style>
+</head>
+<body>
+<div id="demo">
+    <input type="button" value="toggle" @click="flag = !flag">
+    <transition>
+        <h3 v-show="flag">这是一个H3</h3>
+    </transition>
+
+</div>
+</body>
+</html>
+<script src="libs/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el:'#demo',
+        data:{
+            flag:false
+        },
+        methods:{}
+    })
+</script>

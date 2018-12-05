@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .ball{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="demo">
+        <input type="button" value="快到碗里来" @click="flag=!flag">
+        <transition
+                @before-enter = "beforeEnter"
+                @enter = "enter"
+                @after-enter = "afterEnter">
+            <div class="ball" v-show="flag"></div>
+        </transition>
+
+    </div>
+</body>
+</html>
+<script src="libs/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el:'#demo',
+        data:{
+            flag:false
+        },
+        methods:{
+            beforeEnter(el){
+                el.style.transform = "translate(0,0)"
+            },
+            enter(el,done){
+                el.offsetWidth;
+                el.style.transform = "translate(150px,450px)";
+                el.style.transition = "all 1s ease";
+                // 这里的 done， 起始就是 afterEnter 这个函数，也就是说：done 是 afterEnter 函数的引用
+                done();
+            },
+            afterEnter(el){
+                console.log("ok")
+                this.flag = !this.flag
+            }
+        }
+    })
+</script>

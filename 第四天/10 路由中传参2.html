@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .myactive{
+            font-size: 30px;
+            font-weight: 500;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div id="demo">
+    <!-- 如果在路由中，使用 查询字符串，给路由传递参数，则 不需要修改 路由规则的 path 属性 -->
+    <router-link to="/login/20/zs" tag="span">登录</router-link>
+    <router-link to="/register" tag="span">注册</router-link>
+
+    <router-view></router-view>
+</div>
+</body>
+</html>
+<script src="libs/vue-2.4.0.js"></script>
+<script src="libs/vue-router-3.0.1.js"></script>
+
+<script>
+
+
+    var login = {
+        template:'<h3>登录组件----{{ $route.params.id}}-------{{$route.params.name}}</h3>',
+        data(){
+            return {
+                msg:123
+            }
+        },
+        methods:{
+        },
+        created(){
+            console.log(this.$route.params)
+        }
+    };
+    var register = {
+        template:'<h3>注册组件</h3>'
+    };
+
+
+    var router = new VueRouter({
+        routes:[
+            {path:'/login/:id/:name',component:login},
+            {path:'/register',component:register}
+        ],
+        linkActiveClass:'myactive'
+    });
+    var vm = new Vue({
+        el:'#demo',
+        data:{},
+        methods:{},
+        router
+    })
+</script>

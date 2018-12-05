@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="demo">
+    <mycom3></mycom3>
+</div>
+
+<template id="temp1">
+    <div>
+        <h1>这是通过 template 元素,在外部定义的组件结构,这个方式,有代码的只能提示和高亮</h1>
+        <span>好用，不错</span>
+    </div>
+</template>
+
+
+<div id="demo2">
+    <mycom4></mycom4>
+</div>
+
+<template id="temp2">
+    <h1>这是私有的 login 组件</h1>
+</template>
+
+
+</body>
+</html>
+<script src="libs/vue-2.4.0.js"></script>
+<script>
+    Vue.component('mycom3',{
+        template:'#temp1'
+    });
+    var vm = new Vue({
+        el:'#demo',
+        data:{},
+        methods:{},
+    });
+
+    var vm2 = new Vue({
+        el:'#demo2',
+        data:{},
+        methods:{},
+        components:{
+            'mycom4':{
+                template:'#temp2',
+            }
+        }
+    })
+</script>

@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d153e3a4-cbc7-4f1e-a041-a03aac4991d9" name="Default" comment="" />
+    <ignored path="vue框架.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="vue框架" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第六天/webpack-study/src/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第六天/webpack-study/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#49#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://E:/vue/day6/代码/01.webpack-study/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".babelrc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第六天/webpack-study/.babelrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第六天/webpack-study/src/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="e#32#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/第六天/webpack-study/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第六天/webpack-study/src/js/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第六天/webpack-study/src/css/index.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/第六天/webpack-study/src/css/index.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/第一天/10 vue循环对象.html" />
+        <option value="$PROJECT_DIR$/第一天/11 迭代数字（从1开始）.html" />
+        <option value="$PROJECT_DIR$/第一天/12 vue循环中key的使用.html" />
+        <option value="$PROJECT_DIR$/第一天/13 v-if和v-show的使用.html" />
+        <option value="E:/vue/day2/代码/code/02.品牌列表案例2.html" />
+        <option value="$PROJECT_DIR$/第二天/02 过滤器的基本使用.html" />
+        <option value="$PROJECT_DIR$/第二天/03 生命周期函数.html" />
+        <option value="$PROJECT_DIR$/第二天/01 品牌案例.html" />
+        <option value="$PROJECT_DIR$/第三天/01 动画-使用过渡类名实现动画.html" />
+        <option value="$PROJECT_DIR$/第三天/02 动画-修改v-前缀.html" />
+        <option value="$PROJECT_DIR$/第三天/03 动画-使用第三方类实现动画.html" />
+        <option value="$PROJECT_DIR$/第三天/04 是用钩子函数模拟小球半场动画.html" />
+        <option value="$PROJECT_DIR$/第三天/05 动画-列表动画.html" />
+        <option value="$PROJECT_DIR$/第三天/06 组件-创建组件的方式1.html" />
+        <option value="$PROJECT_DIR$/第三天/07 组件-组件的创建方式2.html" />
+        <option value="$PROJECT_DIR$/第三天/09 组件-组件中的data和method使用" />
+        <option value="$PROJECT_DIR$/第三天/09 组件-组件的data和method的使用.html" />
+        <option value="$PROJECT_DIR$/第三天/10 12.组件-why components data must be a function.html" />
+        <option value="$PROJECT_DIR$/第三天/11 组件-组件的切换方式.html" />
+        <option value="$PROJECT_DIR$/第三天/08 组件-组件的创建方式3.html" />
+        <option value="$PROJECT_DIR$/第三天/12 组件-组件的切换方式2.html" />
+        <option value="$PROJECT_DIR$/第三天/13 组件-组件切换动画.html" />
+        <option value="E:/vue/day4/代码/code/05.组件案例-评论列表.html" />
+        <option value="$PROJECT_DIR$/第四天/05 组件案例.html" />
+        <option value="$PROJECT_DIR$/demo.html" />
+        <option value="$PROJECT_DIR$/第四天/01 父组件向子组件传值.html" />
+        <option value="$PROJECT_DIR$/第四天/02 父组件把方法传递给子组件.html" />
+        <option value="$PROJECT_DIR$/第四天/04 ref获取DOM元素和组件.html" />
+        <option value="$PROJECT_DIR$/第四天/06 路由的基本使用.html" />
+        <option value="$PROJECT_DIR$/第四天/09 路由规则中定义参数.html" />
+        <option value="$PROJECT_DIR$/第四天/10 路由中传参2.html" />
+        <option value="$PROJECT_DIR$/第四天/11 路由的嵌套.html" />
+        <option value="$PROJECT_DIR$/第四天/12 路由命名视图的经典布局.html" />
+        <option value="$PROJECT_DIR$/第二天/04 vue-resource的基本使用.html" />
+        <option value="$PROJECT_DIR$/第五天/webpack-study/package.json" />
+        <option value="$PROJECT_DIR$/第五天/webpack-study/src/css/index.css" />
+        <option value="$PROJECT_DIR$/第五天/webpack-study/src/js/index.html" />
+        <option value="$PROJECT_DIR$/第五天/webpack-study/src/css/index.less.css" />
+        <option value="$PROJECT_DIR$/第五天/webpack-study/src/css/index.less" />
+        <option value="$PROJECT_DIR$/第五天/webpack-study/src/css/index.sass" />
+        <option value="$PROJECT_DIR$/第五天/webpack-study/src/css/index.scss" />
+        <option value="$PROJECT_DIR$/第五天/webpack-study/src/js/main.js" />
+        <option value="$PROJECT_DIR$/第五天/webpack-study/webpack.config.js" />
+        <option value="$PROJECT_DIR$/第六天/webpack-study/src/css/index.scss" />
+        <option value="$PROJECT_DIR$/第六天/webpack-study/src/css/index.less" />
+        <option value="$PROJECT_DIR$/第六天/webpack-study/src/css/index.css" />
+        <option value="$PROJECT_DIR$/第六天/webpack-study/src/js/index.html" />
+        <option value="$PROJECT_DIR$/第六天/webpack-study/src/js/main.js" />
+        <option value="$PROJECT_DIR$/第六天/webpack-study/webpack.config.js" />
+        <option value="$PROJECT_DIR$/第六天/webpack-study/.babelrc" />
+        <option value="$PROJECT_DIR$/第六天/webpack-study/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue框架" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue框架" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue框架" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue框架" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue框架" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第六天" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webpack-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue框架" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue框架" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第六天" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webpack-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue框架" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vue框架" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="第六天" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webpack-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="E:/wamp64/www/xxw/day2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.splitter.proportion" value="0.26546147" />
+    <property name="JavaScriptPreferStrict" value="true" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\vue框架\第六天\webpack-study\src\js" />
+      <recent name="C:\Users\Administrator\Desktop\vue框架\第六天\webpack-study" />
+      <recent name="C:\Users\Administrator\Desktop\vue框架\第六天\webpack-study\src\images2" />
+      <recent name="C:\Users\Administrator\Desktop\vue框架\第六天\webpack-study\src\images" />
+      <recent name="C:\Users\Administrator\Desktop\vue框架\第五天\webpack-study" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\vue框架\第六天\webpack-study\src" />
+      <recent name="C:\Users\Administrator\Desktop\vue框架" />
+      <recent name="C:\Users\Administrator\Desktop\vue框架\第一天" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d153e3a4-cbc7-4f1e-a041-a03aac4991d9" name="Default" comment="" />
+      <created>1541170935623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541170935623</updated>
+      <workItem from="1541170937144" duration="887000" />
+      <workItem from="1541210045329" duration="5344000" />
+      <workItem from="1541221344185" duration="6531000" />
+      <workItem from="1541298999930" duration="6222000" />
+      <workItem from="1541326178303" duration="10836000" />
+      <workItem from="1541422173483" duration="395000" />
+      <workItem from="1541422615161" duration="1682000" />
+      <workItem from="1541475618918" duration="14702000" />
+      <workItem from="1541500616530" duration="3499000" />
+      <workItem from="1541511220667" duration="2842000" />
+      <workItem from="1541553441581" duration="360000" />
+      <workItem from="1541555956635" duration="20321000" />
+      <workItem from="1541585064048" duration="395000" />
+      <workItem from="1541585478813" duration="2184000" />
+      <workItem from="1541587707487" duration="7584000" />
+      <workItem from="1541640095390" duration="6180000" />
+      <workItem from="1541656721381" duration="20734000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="110698000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22801788" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6019737" sideWeight="0.3867362" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19572368" sideWeight="0.6132638" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/第三天/07 组件-组件的创建方式2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/04 ref获取DOM元素和组件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue/day4/代码/code/06.ref获取DOM元素和组件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/libs/vue-router-3.0.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/02 父组件把方法传递给子组件.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/06 路由的基本使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第三天/08 组件-组件的创建方式3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="856">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue/day4/代码/code/08.路由规则中定义参数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/09 路由规则中定义参数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="42" column="32" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue/day4/代码/code/09.路由规则传参方式2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue/day4/代码/code/07.路由-路由的基本使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-776">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/10 路由中传参2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue/day4/代码/code/11.路由-命名视图实现经典布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="72" column="15" selection-start-line="72" selection-start-column="15" selection-end-line="72" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue/day4/代码/code/10.路由-路由的嵌套.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/11 路由的嵌套.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第二天/04 vue-resource的基本使用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第四天/12 路由命名视图的经典布局.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/webpack-study/node_modules/acorn/bin/run_test262.js" />
+    <entry file="file://E:/wamp64/www/xxw/secondday/EMS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="55" column="40" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue/day5/代码/webpack-study/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue/day5/代码/webpack-study/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/webpack-study/src/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/webpack-study/src/css/index.less.css" />
+    <entry file="file://$PROJECT_DIR$/第五天/webpack-study/src/css/index.sass" />
+    <entry file="file://E:/vue/day5/代码/webpack-study/src/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue/day5/代码/webpack-study/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/webpack-study/dist/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/webpack-study/dist/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/webpack-study/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/webpack-study/src/css/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/webpack-study/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8378">
+          <caret line="5621" column="0" selection-start-line="5621" selection-start-column="0" selection-end-line="5621" selection-end-column="0" />
+          <folding>
+            <marker date="1541678835704" expanded="true" signature="113:341458" placeholder="{...}" />
+            <marker date="1541678835704" expanded="true" signature="141:539" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="362:533" placeholder="{&quot;@webassemblyjs/helper-module-context&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="589:840" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="881:1114" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="1152:1379" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="1421:1733" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="1670:1727" placeholder="{&quot;@webassemblyjs/wast-printer&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="1768:1989" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="2035:2278" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="2323:2564" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="2608:3067" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="2861:3061" placeholder="{&quot;@webassemblyjs/ast&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="3328:3371" placeholder="{&quot;@xtuc/ieee754&quot;: &quot;^1.2.0&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="3408:3680" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="3635:3674" placeholder="{&quot;@xtuc/long&quot;: &quot;4.2.1&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="3709:3918" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="3952:4589" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="4185:4583" placeholder="{&quot;@webassemblyjs/ast&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="4622:5092" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="4853:5086" placeholder="{&quot;@webassemblyjs/ast&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="5125:5553" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="5356:5547" placeholder="{&quot;@webassemblyjs/ast&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="5589:6118" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="5826:6112" placeholder="{&quot;@webassemblyjs/ast&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="6154:6692" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="6391:6686" placeholder="{&quot;@webassemblyjs/ast&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="6729:7101" placeholder="{&quot;version&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="6968:7095" placeholder="{&quot;@webassemblyjs/ast&quot;: &quot;1.7.11&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="7124:7319" placeholder="{&quot;version&quot;: &quot;1.2.0&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="7339:7528" placeholder="{&quot;version&quot;: &quot;4.2.1&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="7545:7820" placeholder="{&quot;version&quot;: &quot;1.3.5&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="7742:7814" placeholder="{&quot;mime-types&quot;: &quot;~2.1.18&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="7835:8014" placeholder="{&quot;version&quot;: &quot;5.7.3&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="8044:8308" placeholder="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="8267:8302" placeholder="{&quot;acorn&quot;: &quot;^5.0.0&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="8321:8679" placeholder="{&quot;version&quot;: &quot;6.5.5&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="8510:8673" placeholder="{&quot;fast-deep-equal&quot;: &quot;^2.0.1&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="8699:8888" placeholder="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="8910:9103" placeholder="{&quot;version&quot;: &quot;3.2.0&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="9124:9315" placeholder="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="9334:9521" placeholder="{&quot;version&quot;: &quot;0.0.7&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="9541:9730" placeholder="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="9751:10005" placeholder="{&quot;version&quot;: &quot;3.2.1&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="9956:9999" placeholder="{&quot;color-convert&quot;: &quot;^1.9.0&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="10023:10304" placeholder="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="10222:10298" placeholder="{&quot;micromatch&quot;: &quot;^3.1.4&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="10320:10501" placeholder="{&quot;version&quot;: &quot;1.2.0&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="10519:10704" placeholder="{&quot;version&quot;: &quot;4.0.0&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="10725:10916" placeholder="{&quot;version&quot;: &quot;1.1.0&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="10935:11122" placeholder="{&quot;version&quot;: &quot;3.1.0&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="11145:11340" placeholder="{&quot;version&quot;: &quot;2.1.1&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="11361:11612" placeholder="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="11566:11606" placeholder="{&quot;array-uniq&quot;: &quot;^1.0.1&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="11632:11821" placeholder="{&quot;version&quot;: &quot;1.0.3&quot;...}" />
+            <marker date="1541678835704" expanded="true" signature="190814:190820" placeholder="{&quot;version&quot;: &quot;1.1.2&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/webpack-study/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/webpack-study/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="31" column="77" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/webpack-study/src/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/webpack-study/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#52#74#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/webpack-study/src/images2/生小孩.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第五天/webpack-study/src/js/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue/day6/代码/01.webpack-study/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue/day6/代码/01.webpack-study/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue/day6/代码/01.webpack-study/src/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue/day6/代码/01.webpack-study/src/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/webpack-study/src/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/webpack-study/src/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue/day6/代码/01.webpack-study/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/webpack-study/src/css/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/webpack-study/src/js/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/vue/day6/代码/01.webpack-study/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/webpack-study/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/webpack-study/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/webpack-study/src/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#32#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/第六天/webpack-study/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

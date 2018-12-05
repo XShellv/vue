@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="demo">
+        <p>{{ msg | change1('邪恶','我') | change2('地') }}</p>
+    </div>
+</body>
+</html>
+<script src="libs/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el:'#demo',
+        data:{
+            msg:"曾经的我多么的天真，我天真的想法，我天真的笑"
+        },
+        filters:{
+            change1:function (msg,par1,par2) {
+                return msg.replace(/天真/g,par1+par2)
+            },
+            change2:function (msg,par3) {
+                return msg.replace(/的/g,par3)
+            }
+        }
+
+
+    })
+</script>

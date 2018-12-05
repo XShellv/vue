@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .red {
+            color: red;
+        }
+
+        .thin {
+            font-weight: 200;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .active {
+            letter-spacing: 0.5em;
+        }
+    </style>
+</head>
+<body>
+    <!--<h4 id="h4" :class="['red','thin','italic']">{{msg}}</h4>-->
+    <!--<h4 id="h4" :class="['red','thin',{'active':flag}]">{{msg}}</h4>-->
+    <h4 id="h4" :class="val">{{msg}}</h4>
+
+</body>
+</html>
+<script src="vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el:'#h4',
+        data:{
+            msg:'这是一个很大很大的H1，大到你无法想象！！！',
+            flag:true,
+            val:{ red:true,italic:true},
+        },
+        method:{
+
+        }
+    })
+</script>

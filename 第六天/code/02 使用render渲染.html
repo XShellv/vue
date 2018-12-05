@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="demo">
+    <p>123</p>
+    <login></login>
+</div>
+</body>
+</html>
+<script src="lib/vue-2.4.0.js"></script>
+<script>
+    var login = {
+        template:"<h1>这是一个登录组件</h1>"
+    }
+    var vm = new Vue({
+        el:'#demo',
+        data:{},
+        methods:{},
+        render: (createElements) => {
+            return createElements(login)
+    })
+</script>

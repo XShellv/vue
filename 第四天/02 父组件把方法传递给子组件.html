@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="demo">
+        <mycom @func="show"></mycom>
+    </div>
+</body>
+</html>
+<script src="libs/vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el:"#demo",
+        data:{},
+        methods:{
+            show(num){
+                console.log(num)
+            }
+        },
+        components:{
+            mycom:{
+                data(){
+                    return{msg:"哈哈"}
+                },
+                template:"<input type='button' value='这是子组件中的按钮 - 点击它，触发 父组件传递过来的 func 方法' @click='myclick'>",
+                methods:{
+                    myclick(){
+                        this.$emit('func',this.msg);
+                    }
+                }
+            }
+        }
+    })
+</script>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box1{
+            width: 500px;
+            height: 300px;
+            background-color: pink;
+        }
+        .box2{
+            width: 300px;
+            height: 100px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div class="box1" @click.capture = 'click1'>
+    <div class = box2 @click = 'click2'>
+        <input type="button" :value = "value" @click = 'clickbtn'>
+        <a href="https://www.baidu.com/" @click.prevent.once>百度</a>
+    </div>
+</div>
+</body>
+</html>
+<script src="vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el: '.box1',
+        data:{
+            value:"点击我",
+        },
+        methods:{
+            click1(){
+                console.log("我是被点击的box1")
+            },
+            click2(){
+                console.log("我是被点击的box2")
+            },
+            clickbtn(){
+                console.log("我是被点击的button")
+            }
+        }
+    })
+</script>

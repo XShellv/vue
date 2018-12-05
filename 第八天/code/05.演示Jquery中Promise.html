@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="button" value="获取数据" id="btn">
+</body>
+</html>
+<script src="./files/node_modules/jquery/dist/jquery.min.js"></script>
+<script>
+    $(function () {
+        $("#btn").on("click",function () {
+            $.ajax({
+                method:"get",
+                dataType:"json",
+                url:"./data.json",
+            }).then(function (data) {
+                console.log(data)
+            })
+        })
+    })
+</script>

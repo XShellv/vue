@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="demo">
+        <p v-for="(item,i) in list">id值为：{{item.id}}----name值为：{{item.name}}----索引值：{{i}}</p>
+    </div>
+</body>
+</html>
+<script src="vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el:"#demo",
+        data:{
+            list: [
+                { id: 1, name: 'zs1' },
+                { id: 2, name: 'zs2' },
+                { id: 3, name: 'zs3' },
+                { id: 4, name: 'zs4' }
+            ]
+        },
+        methods:{
+
+        }
+    })
+</script>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="demo">
+    <input type="button" :title = "mytitle" :value="value" @click="click">
+</div>
+</body>
+</html>
+<script src="vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el:"#demo",
+        data:{
+            msg:"点击",
+            mytitle:"我是按钮的title",
+            value:"点击"
+        },
+        methods:{
+            click:function () {
+                alert('你好啊！')
+            }
+        }
+    })
+</script>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">43019200000   817106084523
+    <title>Title</title>
+</head>
+<body>
+<div id="cal">
+    <input type="text" v-model="n1">
+    <select name="" id="" v-model="opt">
+        <option value="+"></option>
+        <option value="-"></option>
+        <option value="*"></option>
+        <option value="/"></option>
+    </select>
+    <input type="text" v-model="n2">
+    <input type="button" value="=" @click="cal">
+    <input type="text" v-model="n3">
+</div>
+</body>
+</html>
+<script src="vue-2.4.0.js"></script>
+<script>
+    var vm = new Vue({
+        el:'#cal',
+        data:{
+            n1:0,
+            n2:0,
+            n3:0,
+            opt:'+'
+        },
+        methods:{
+            cal(){
+//                switch(this.opt){
+//                    case '+':
+//                            this.n3 = parseInt(this.n1)+parseInt(this.n2)
+//                        break;
+//                    case '-':
+//                        this.n3 = parseInt(this.n1)-parseInt(this.n2)
+//                        break;
+//                    case '*':
+//                        this.n3 = parseInt(this.n1)*parseInt(this.n2)
+//                        break;
+//                    case '/':
+//                        this.n3 = parseInt(this.n1)/parseInt(this.n2)
+//                        break;
+//                }
+                var calStr = parseInt(this.n1)'+this.opt+'parseInt(this.n2)
+                eval(calStr)
+            }
+        }
+    })
+</script>
